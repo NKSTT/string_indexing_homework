@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    x = s.find("*")
+    print ("bu xning qiymati = ", x)
+    if x != -1:
+        return x
+    else: 
+        return False
+print (main('272*'))
         
