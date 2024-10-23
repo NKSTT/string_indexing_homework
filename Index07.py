@@ -1,9 +1,6 @@
-def main(s,n):
-    """
-    The s string variable is given. n Return the character in the index, otherwise return False.
-    Args:
-        s(str): parameter
-    Returns:
-        str: answer
-    """
-    return
+def get_character(s, n):
+    if n < 0 or n >= len(s):
+        return False
+    return s[n]
+print(get_character("uz", 4))   
+print(get_character("good", 3)) 
