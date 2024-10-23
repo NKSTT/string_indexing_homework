@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = "1234567890"
+    x = 0
+    if s[0] in a:
+        x+=1
+    if s[1] in a:
+        x+=1
+    if s[2] in a:
+        x+=1
+    if s[3] in a:
+        x+=1
+    if s[4] in a:
+        x+=1
+    return x
+print (main('12345'))
